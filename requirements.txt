@@ -1,3 +1,6 @@
 Flask
 pytest
 gunicorn
+google-auth
+requests
+Flask-Cors

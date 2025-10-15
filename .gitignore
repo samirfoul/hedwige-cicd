@@ -1,0 +1,32 @@
+Fichier .gitignore pour un projet monorepo Angular + Python
+--- Dépendances & Cache Node (Angular) ---
+Ce dossier peut contenir des milliers de fichiers et pèse des centaines de Mo.
+Il est toujours réinstallé avec "npm install".
+node_modules/
+
+--- Fichiers de build & cache Angular ---
+Ces dossiers sont générés automatiquement par Angular.
+dist/
+.angular/
+tmp/
+.log
+npm-debug.log
+yarn-debug.log*
+yarn-error.log*
+
+--- Environnement Virtuel Python (Backend) ---
+Contient l'interpréteur Python et les bibliothèques, spécifique à votre machine.
+venv/
+.venv/
+env/
+.env
+
+--- Fichiers compilés & cache Python ---
+pycache/
+*.py[cod]
+*$py.class
+
+--- Fichiers de l'IDE et du système d'exploitation ---
+.vscode/
+.idea/
+.DS_Store
