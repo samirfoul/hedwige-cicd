@@ -45,4 +45,3 @@ jobs:
           context: ./hedwige-express
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/hedwige-express:latest
-```
