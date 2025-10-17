@@ -58,3 +58,6 @@ def google_auth():
 # --- Permet de lancer le serveur en mode développement ---
 if __name__ == '__main__':
     app.run(debug=True, port=5001)
+
+
+# test pour declancher le pipe line 
